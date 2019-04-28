@@ -1,0 +1,13 @@
+clc;
+close all;
+clear;
+t=1:0.01:20;
+y1=sin(2*pi*t/10);
+y2=cos(2*pi*t/10);
+subplot(1,2,1);
+plot(t,y1);
+subplot(1,2,2);
+plot(t,y2);
+grid on;
+xlabel('t');
+ylabel('y1');
